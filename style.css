@@ -1,0 +1,281 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+li>a {
+    text-decoration: none;
+    color: #6b7683;
+    padding-left: 1rem;
+}
+
+
+.button>a {
+    margin-left: 4rem;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 0.8rem 2rem;
+    border-radius: 7px;
+    display: inline-block;
+}
+
+.dropdown-content {
+    min-width: 100px;
+    display: none;
+    position: absolute;
+}
+
+.Dropdown-btn {
+    position: relative;
+
+}
+
+.dropdown-content>a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+
+}
+
+.dropdown-content {
+    background-color: white;
+
+}
+
+.dropdown-content>a:hover {
+    color: #cf4a46;
+    background-color: rgba(255, 255, 255, 0.466);
+    display: inline-block;
+}
+
+.hero {
+    height: 90vh;
+    background-image: url(./Assets/Backgound1\ for\ long\ task.png);
+}
+
+.btn {
+
+    color: white;
+    background-color: #cf4a46;
+    padding: 12px 35px;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tiolu-bighead {
+    color: white;
+    font-size: 2rem;
+}
+
+.Faith_decleration {
+    height: 80vh;
+    text-align: center;
+}
+
+.Faith_decleration>h1 {
+    margin-top: 80px;
+}
+
+.things-about-us {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.statement-detail>img {
+    margin-top: 60px;
+    width: 12%;
+    height: 40px;
+}
+
+.statement-detail {
+    padding-left: 50px;
+}
+
+.small-red-part {
+    height: 30vh;
+    background-color: #cf4a46;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* display: inline-block; */
+    border-right: 1px solid white;
+    padding: 1.5rem 0;
+    margin: 4rem 0;
+
+}
+
+.second-part {
+    text-align: start;
+    border-left: 2px solid white;
+    padding-left: 1.9rem;
+}
+
+.btn-red {
+    padding: 0.8rem 1.8rem;
+    color: white;
+    background-color: #cf4a46;
+    border: 2px solid white;
+    border-radius: 2px;
+}
+
+
+.part-child {}
+
+.callender-icon {
+    display: flex;
+    align-items: center;
+}
+
+.Welcome-church {
+    height: 90vh;
+    background-color: #efefef;
+}
+
+.Box-1 {
+    height: 250px;
+    width: 700px;
+    padding: 1rem;
+
+    /* padding-right: 300px;
+    padding-left: 100px;
+    padding-bottom: 200px; */
+    /* text-align: center; */
+    margin: auto 40px;
+    background-color: white;
+    margin-top: 200px;
+    display: inline-block
+}
+
+.Box-1>h2 {
+    text-align: center;
+}
+
+
+.geo {
+    text-align: left;
+}
+
+.bi-geo-alt-fill,
+.bi-cursor-fill {
+    color: #cf4a46;
+}
+
+.cursor {
+    justify-content: center;
+    display: flex;
+}
+
+.cursor>i {
+    color: #cf4a46;
+}
+
+.Box-2 {
+    color: white;
+    background-color: #cf4a46;
+    margin-left: 900px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.b1 {
+    padding: 5px;
+    border-right: 2px solid white;
+
+}
+
+.opening-time,
+.cursor,
+.geo {
+    margin: auto;
+    text-align: center;
+}
+
+.church-time {
+    width: 400px;
+    margin: auto !important;
+}
+
+.other {
+    height: 70vh;
+
+}
+
+.other-img {
+    display: flex;
+    height: 300px;
+    margin-left: 110px;
+
+
+
+}
+
+.other-img>img {
+    margin: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.RED-BTN {
+    margin-left: 4rem;
+    background-color: white;
+    text-decoration: none;
+    color:#cf4a46;
+    padding: 0.5rem 2rem;
+    border: 2px solid #cf4a46;
+    border-radius: 2px;
+    display: inline-block;
+
+}
