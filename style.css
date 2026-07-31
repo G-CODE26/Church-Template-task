@@ -240,7 +240,7 @@ li>a {
 }
 
 .other {
-    height: 70vh;
+    height: 490vh;
 
 }
 
@@ -257,14 +257,25 @@ li>a {
     margin: 30px;
 }
 
+ .bi-quote-2{
+    transform: rotate(90deg);
+
+ }
 
 
+.hopes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.VALUES > h1 {
+      text-align: center;
+}
 
 
-
-
-
-
+.VALUES > p{
+      text-align: center;
+}
 
 
 
@@ -272,10 +283,27 @@ li>a {
     margin-left: 4rem;
     background-color: white;
     text-decoration: none;
-    color:#cf4a46;
+    color: #cf4a46;
     padding: 0.5rem 2rem;
     border: 2px solid #cf4a46;
     border-radius: 2px;
     display: inline-block;
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.prayer {
+    background-image: url(./Assets/child\ and\ mother\ bg.png);
+    height: 40vh;
 }
