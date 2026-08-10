@@ -82,6 +82,15 @@ li>a {
     display: inline-block;
 }
 
+    .past > img{
+        width: 230px;
+    }
+    .Pastors{
+        margin-top: 140px;
+        display: flex;
+        justify-content: space-around;
+    }
+
 /* mediaqueary for the nav bar */
 
 @media screen and (max-width:770px) {
@@ -350,11 +359,3 @@ li>a {
         height: 40vh;
     }
 
-    .past > img{
-        width: 230px;
-    }
-    .Pastors{
-        margin-top: 140px;
-        display: flex;
-        justify-content: space-around;
-    }
