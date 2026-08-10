@@ -349,3 +349,7 @@ li>a {
         background-image: url(./Assets/child\ and\ mother\ bg.png);
         height: 40vh;
     }
+
+    .past > img{
+        width: 230px;
+    }
