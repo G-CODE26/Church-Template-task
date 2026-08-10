@@ -98,242 +98,240 @@ li>a {
     }
 
     ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-
-}
-
-.nav-links {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: start;
-}
-
-.button {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-}
-
-}
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+    }
 
 
+        .nav-links {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: start;
+        }
 
-/* end of media queary for the nav bar */
+        .button {
+            display: flex;
+            flex-direction: column;
+            justify-content: start
+        }
 
-.hero {
-    height: 90vh;
-    background-image: url(./Assets/Backgound1\ for\ long\ task.png);
-}
+    
+    }
 
-.btn {
+    
+    /* end of media queary for the nav bar */
 
-    color: white;
-    background-color: #cf4a46;
-    padding: 12px 35px;
-    display: inline-block;
-    border: none;
-    border-radius: 5px;
-}
+    .hero {
+        height: 90vh;
+        background-image: url(./Assets/Backgound1\ for\ long\ task.png);
+    }
 
-.hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
+    .btn {
 
-.tiolu-bighead {
-    color: white;
-    font-size: 2rem;
-}
+        color: white;
+        background-color: #cf4a46;
+        padding: 12px 35px;
+        display: inline-block;
+        border: none;
+        border-radius: 5px;
+    }
 
-.Faith_decleration {
-    height: 80vh;
-    text-align: center;
-}
+    .hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
-.Faith_decleration>h1 {
-    margin-top: 80px;
-}
+    .tiolu-bighead {
+        color: white;
+        font-size: 2rem;
+    }
 
-.things-about-us {
-    display: flex;
-    justify-content: center;
+    .Faith_decleration {
+        height: 80vh;
+        text-align: center;
+    }
 
+    .Faith_decleration>h1 {
+        margin-top: 80px;
+    }
 
-}
-
-.statement-detail>img {
-    margin-top: 60px;
-    width: 12%;
-    height: 40px;
-}
-
-.statement-detail {
-    padding-left: 50px;
-}
-
-.small-red-part {
-    height: 30vh;
-    background-color: #cf4a46;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    /* display: inline-block; */
-    border-right: 1px solid white;
-    padding: 1.5rem 0;
-    margin: 4rem 0;
-
-}
-
-.second-part {
-    text-align: start;
-    border-left: 2px solid white;
-    padding-left: 1.9rem;
-}
-
-.btn-red {
-    padding: 0.8rem 1.8rem;
-    color: white;
-    background-color: #cf4a46;
-    border: 2px solid white;
-    border-radius: 2px;
-}
+    .things-about-us {
+        display: flex;
+        justify-content: center;
 
 
-.part-child {}
+    }
 
-.callender-icon {
-    display: flex;
-    align-items: center;
-}
+    .statement-detail>img {
+        margin-top: 60px;
+        width: 12%;
+        height: 40px;
+    }
 
-.Welcome-church {
-    height: 90vh;
-    background-color: #efefef;
-}
+    .statement-detail {
+        padding-left: 50px;
+    }
 
-.Box-1 {
-    height: 250px;
-    width: 700px;
-    padding: 1rem;
+    .small-red-part {
+        height: 30vh;
+        background-color: #cf4a46;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* display: inline-block; */
+        border-right: 1px solid white;
+        padding: 1.5rem 0;
+        margin: 4rem 0;
 
-    /* padding-right: 300px;
+    }
+
+    .second-part {
+        text-align: start;
+        border-left: 2px solid white;
+        padding-left: 1.9rem;
+    }
+
+    .btn-red {
+        padding: 0.8rem 1.8rem;
+        color: white;
+        background-color: #cf4a46;
+        border: 2px solid white;
+        border-radius: 2px;
+    }
+
+
+    .part-child {}
+
+    .callender-icon {
+        display: flex;
+        align-items: center;
+    }
+
+    .Welcome-church {
+        height: 90vh;
+        background-color: #efefef;
+    }
+
+    .Box-1 {
+        height: 250px;
+        width: 700px;
+        padding: 1rem;
+
+        /* padding-right: 300px;
     padding-left: 100px;
     padding-bottom: 200px; */
-    /* text-align: center; */
-    margin: auto 40px;
-    background-color: white;
-    margin-top: 200px;
-    display: inline-block
-}
+        /* text-align: center; */
+        margin: auto 40px;
+        background-color: white;
+        margin-top: 200px;
+        display: inline-block
+    }
 
-.Box-1>h2 {
-    text-align: center;
-}
-
-
-.geo {
-    text-align: left;
-}
-
-.bi-geo-alt-fill,
-.bi-cursor-fill {
-    color: #cf4a46;
-}
-
-.cursor {
-    justify-content: center;
-    display: flex;
-}
-
-.cursor>i {
-    color: #cf4a46;
-}
-
-.Box-2 {
-    color: white;
-    background-color: #cf4a46;
-    margin-left: 900px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.b1 {
-    padding: 5px;
-    border-right: 2px solid white;
-
-}
-
-.opening-time,
-.cursor,
-.geo {
-    margin: auto;
-    text-align: center;
-}
-
-.church-time {
-    width: 400px;
-    margin: auto !important;
-}
-
-.other {
-    height: 490vh;
-
-}
-
-.other-img {
-    display: flex;
-    height: 300px;
-    margin-left: 110px;
+    .Box-1>h2 {
+        text-align: center;
+    }
 
 
+    .geo {
+        text-align: left;
+    }
 
-}
+    .bi-geo-alt-fill,
+    .bi-cursor-fill {
+        color: #cf4a46;
+    }
 
-.other-img>img {
-    margin: 30px;
-}
+    .cursor {
+        justify-content: center;
+        display: flex;
+    }
 
-.bi-quote-2 {
-    transform: rotate(90deg);
+    .cursor>i {
+        color: #cf4a46;
+    }
 
-}
+    .Box-2 {
+        color: white;
+        background-color: #cf4a46;
+        margin-left: 900px;
+        display: flex;
+        justify-content: space-around;
+    }
 
+    .b1 {
+        padding: 5px;
+        border-right: 2px solid white;
 
-.hopes {
-    display: flex;
-    justify-content: space-around;
-}
+    }
 
-.VALUES>h1 {
-    text-align: center;
-}
+    .opening-time,
+    .cursor,
+    .geo {
+        margin: auto;
+        text-align: center;
+    }
 
+    .church-time {
+        width: 400px;
+        margin: auto !important;
+    }
 
-.VALUES>p {
-    text-align: center;
-}
+    .other {
+        height: 490vh;
+
+    }
+
+    .other-img {
+        display: flex;
+        height: 300px;
+        margin-left: 110px;
 
 
 
-.RED-BTN {
-    margin-left: 4rem;
-    background-color: white;
-    text-decoration: none;
-    color: #cf4a46;
-    padding: 0.5rem 2rem;
-    border: 2px solid #cf4a46;
-    border-radius: 2px;
-    display: inline-block;
+    }
 
-}
+    .other-img>img {
+        margin: 30px;
+    }
+
+    .bi-quote-2 {
+        transform: rotate(90deg);
+
+    }
 
 
+    .hopes {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .VALUES>h1 {
+        text-align: center;
+    }
+
+
+    .VALUES>p {
+        text-align: center;
+    }
+
+
+
+    .RED-BTN {
+        margin-left: 4rem;
+        background-color: white;
+        text-decoration: none;
+        color: #cf4a46;
+        padding: 0.5rem 2rem;
+        border: 2px solid #cf4a46;
+        border-radius: 2px;
+        display: inline-block;
+
+    }
 
 
 
@@ -345,7 +343,9 @@ li>a {
 
 
 
-.prayer {
-    background-image: url(./Assets/child\ and\ mother\ bg.png);
-    height: 40vh;
-}
+
+
+    .prayer {
+        background-image: url(./Assets/child\ and\ mother\ bg.png);
+        height: 40vh;
+    }
