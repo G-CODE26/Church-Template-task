@@ -18,6 +18,7 @@ nav {
 
 }
 
+
 ul {
     list-style-type: none;
     display: flex;
@@ -80,6 +81,47 @@ li>a {
     background-color: rgba(255, 255, 255, 0.466);
     display: inline-block;
 }
+
+/* mediaqueary for the nav bar */
+
+@media screen and (max-width:770px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+
+
+    }
+
+    ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+}
+
+
+
+/* end of media queary for the nav bar */
 
 .hero {
     height: 90vh;
@@ -257,24 +299,24 @@ li>a {
     margin: 30px;
 }
 
- .bi-quote-2{
+.bi-quote-2 {
     transform: rotate(90deg);
 
- }
+}
 
 
-.hopes{
+.hopes {
     display: flex;
     justify-content: space-around;
 }
 
-.VALUES > h1 {
-      text-align: center;
+.VALUES>h1 {
+    text-align: center;
 }
 
 
-.VALUES > p{
-      text-align: center;
+.VALUES>p {
+    text-align: center;
 }
 
 
