@@ -353,3 +353,8 @@ li>a {
     .past > img{
         width: 230px;
     }
+    .Pastors{
+        margin-top: 140px;
+        display: flex;
+        justify-content: space-around;
+    }
