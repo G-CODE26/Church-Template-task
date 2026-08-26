@@ -144,7 +144,9 @@ li>a {
 }
 
 .statement-detail {
-    padding-left: 50px;
+    padding:1rem;
+    width:100% ;
+    text-align: center;
 }
 
 .small-red-part {
@@ -256,6 +258,9 @@ li>a {
 
     .statement-detail {
         padding-left: 0px;
+        width: 80%;
+        margin: auto;
+        text-align: center;
     }
 
 }
