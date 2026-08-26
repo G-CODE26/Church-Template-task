@@ -81,10 +81,12 @@ li>a {
     background-color: rgba(255, 255, 255, 0.466);
     display: inline-block;
 }
-.past{
+
+.past {
     text-align: center;
 
 }
+
 .past>img {
     width: 230px;
 }
@@ -94,10 +96,12 @@ li>a {
     display: flex;
     justify-content: space-around;
 }
-.past> p{
+
+.past>p {
     color: #cf4a46;
     font-style: italic;
 }
+
 .Donation {
     height: 70vh;
     margin-top: 150px;
@@ -114,7 +118,7 @@ li>a {
 .Donation-blocks {
     display: flex;
     justify-content: space-around;
-    
+
 }
 
 .Faith_decleration {
@@ -221,9 +225,10 @@ li>a {
         flex-direction: column;
         justify-content: space-around;
     }
-    .past{
-        margin:1rem 0;
-        
+
+    .past {
+        margin: 1rem 0;
+
     }
 
     .Donation {
@@ -238,16 +243,20 @@ li>a {
         padding-top: 30px;
         font-size: larger;
     }
-    
-.things-about-us {
-    
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: auto;
+
+    .things-about-us {
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: auto;
 
 
-}
+    }
+
+    .statement-detail {
+        padding: 0px;
+    }
 
 }
 
