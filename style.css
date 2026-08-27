@@ -157,7 +157,7 @@ li>a {
     justify-content: space-around;
     align-items: center;
     /* display: inline-block; */
-    border-right: 1px solid white;
+    /* border-right: 1px solid white; */
     padding: 1.5rem 0;
     margin: 4rem 0;
 
@@ -181,12 +181,30 @@ li>a {
     margin-right: 26px;
 }
 
-
+.bi-geo-alt-fill,.bi-cursor-fill{
+    color:white;
+}
 .callender-icon {
     display: flex;
     align-items: center;
 }
+/* .b1 {
+    padding: 5px;
+    border-right: 2px solid white;
 
+} */
+.days{
+    padding-right:2rem;
+    border-right: 1px solid white;
+}
+.hours{
+    padding-right:2rem;
+    border-right: 1px solid white;
+}
+.mins{
+    padding-right:2rem;
+    border-right: 1px solid white;
+}
 /* mediaqueary for the nav bar */
 
 @media screen and (max-width:770px) {
@@ -379,11 +397,7 @@ li>a {
     justify-content: space-around;
 }
 
-.b1 {
-    padding: 5px;
-    border-right: 2px solid white;
 
-}
 
 .opening-time,
 .cursor,
