@@ -144,13 +144,13 @@ li>a {
 }
 
 .statement-detail {
-    padding:1rem;
-    width:100% ;
+    padding: 1rem;
+    width: 100%;
     text-align: center;
 }
 
 .small-red-part {
-    height: 30vh;
+
     background-color: #cf4a46;
     color: white;
     display: flex;
@@ -177,8 +177,10 @@ li>a {
     border-radius: 2px;
 }
 
+.first-part>h2 {
+    margin-right: 26px;
+}
 
-/* .part-child {} */
 
 .callender-icon {
     display: flex;
@@ -263,6 +265,39 @@ li>a {
         text-align: center;
     }
 
+    .small-red-part {
+
+        background-color: #cf4a46;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: start;
+        /* display: inline-block; */
+        border-right: none;
+        padding: 1.5rem 1rem;
+        margin: 4rem 0;
+
+    }
+
+    .second-part {
+        text-align: start;
+        border-left: none;
+        padding-left: 0rem;
+    }
+
+    .first-part>h2 {
+        margin-right: 26px;
+    }
+
+    .btn-red {
+        padding: 0.8rem 1.8rem;
+        color: white;
+        background-color: #cf4a46;
+        border: 2px solid white;
+        border-radius: 2px;
+        margin-top:1rem;
+    }
 }
 
 
@@ -323,10 +358,6 @@ li>a {
     text-align: left;
 }
 
-.bi-geo-alt-fill,
-.bi-cursor-fill {
-    color: #cf4a46;
-}
 
 .cursor {
     justify-content: center;
