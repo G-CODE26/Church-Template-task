@@ -264,6 +264,9 @@ li>a {
         margin: auto;
         text-align: center;
     }
+    .statement-detail > p{
+        margin: 0rem 1rem;
+    }
 
     .small-red-part {
 
