@@ -188,11 +188,7 @@ li>a {
     display: flex;
     align-items: center;
 }
-/* .b1 {
-    padding: 5px;
-    border-right: 2px solid white;
 
-} */
 .days{
     padding-right:2rem;
     border-right: 1px solid white;
@@ -351,12 +347,13 @@ li>a {
 }
 
 .Welcome-church {
-    height: 90vh;
-    background-color: #efefef;
+    /* display: flex; */
+    /* height: 90vh; */
+    /* background-color: #efefef; */
 }
 
 .Box-1 {
-    height: 250px;
+    /* height: 250px; */
     width: 700px;
     padding: 1rem;
 
@@ -367,7 +364,7 @@ li>a {
     margin: auto 40px;
     background-color: white;
     margin-top: 200px;
-    display: inline-block
+    /* display: inline-block */
 }
 
 .Box-1>h2 {
